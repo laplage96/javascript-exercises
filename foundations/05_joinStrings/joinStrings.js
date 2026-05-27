@@ -1,14 +1,15 @@
-/*
- First name: Carlos
- Last name: Stevenson
- This year: 1965
- Birth year: 1947
+// 1. Base data variables
+const firstName = "Carlos";
+const lastName = "Stevenson";
+const thisYear = 1965;
+const birthYear = 1947;
 
- The greeting should read: "Hello! My name is Carlos Stevenson and I am 18 years old."
-*/
+// 2. Optimization variables (Step 3)
+const fullName = `${firstName} ${lastName}`;
+const age = thisYear - birthYear;
 
-// Add your code right below, good luck!
-
+// 3. Final greeting string constructed from fullName and age
+const greeting = `Hello! My name is ${fullName} and I am ${age} years old.`;
 
 
 
