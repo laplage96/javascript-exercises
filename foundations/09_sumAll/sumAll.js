@@ -10,7 +10,7 @@ const sumAll = function(min, max) {
         max = temp;
     }
 
-
+    // 3. Accumulate the sum from min up to and including max
     let finalSum = 0;
     for (let i = min; i <= max; i++) {
         finalSum += i;
